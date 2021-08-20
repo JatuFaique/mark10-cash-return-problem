@@ -1,5 +1,43 @@
-.container {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #6b7280;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.main-container {
+  text-align: center;
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  align-items: center;
+  color: white;
+}
+
+.main-container h2 {
+  font-weight: lighter;
+}
+
+.main-container h1 {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+#input-feilds {
+  display: flex;
+  flex-direction: inherit;
+  align-items: center;
+  margin: 2rem;
+  gap: 12px;
 }
